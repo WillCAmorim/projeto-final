@@ -1,0 +1,82 @@
+/*====== H E A D E R ======*/
+
+.header-bg{
+  background-color: #000000;
+}
+
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.header-menu{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.header-menu a{
+  display: inline-block;
+  padding: 16px 0px;
+  color: #ffffff;
+  font-size: 1.125rem;
+  position: relative;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+.header-menu a:after{
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: #ffffff;
+  margin-top: 4px;
+  position: absolute;
+}
+
+.header-menu a:hover:after{
+  width: 100%;
+  transition: 0.3s;
+}
+
+
+.hamburguer {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+  .hamburguer {
+    display: block;
+  }
+
+  .header-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #000;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 4px;
+  }
+
+  .header-menu.active {
+    display: flex;
+  }
+}

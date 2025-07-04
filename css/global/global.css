@@ -1,0 +1,19 @@
+/*====== C O N F I G U R A Ç Õ E S    G L O B A I S ======*/
+
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
