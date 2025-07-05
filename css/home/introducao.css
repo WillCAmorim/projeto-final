@@ -34,16 +34,15 @@
 }
 
 .introducao h1 span{
-  color: var(--cor-p1);
+  color: #FFBB00;
+  font-family: 'roboto';
+  font-weight: 600;
 } 
 
 .introducao p{
   margin-bottom: 20px;
-  font-size: 24px;
-  line-height: 1.5;
-  font-family: 'Roboto';
-  font-weight: 400;
   color: #B2B2B2;
+  
 }
 
 
