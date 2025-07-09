@@ -1,10 +1,18 @@
+/* ======== G L O B A I S ======== */
+
 @import "./global/header.css";
 @import "./global/global.css";
 
+/* ======== I N T R O D U Ç Ã O ======== */
 
 @import "./home/introducao.css";
 
+/* ======== U T I L I D A D E S ======== */
 
 @import "./utilidades/componentes.css";
 @import "./utilidades/tipografia.css";
+
+/* ======== B I C I C L E T A S ======== */
+
+@import "./bicicletas/bicicletas-lista.css"
 
