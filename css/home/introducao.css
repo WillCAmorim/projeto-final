@@ -31,6 +31,9 @@
 
 .introducao h1{
   margin-bottom: 32px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
 }
 
 .introducao h1 span{

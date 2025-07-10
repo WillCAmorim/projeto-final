@@ -1,0 +1,21 @@
+.bicicleta-lista ul{
+  display: flex;
+  gap: 40px;
+  padding: 0 20px;
+  text-decoration: none;
+  list-style: none;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bicicleta-lista h2 span{
+  color: #FFBB00;
+  font-family: 'roboto';
+  font-weight: 600;
+}
+
+.bicicleta-lista h2{
+  margin-bottom: 40px;
+}
+
