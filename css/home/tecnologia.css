@@ -1,0 +1,24 @@
+.tecnologia-bg{
+  background-color: black;
+}
+
+.tecnologia{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.tecnologia span{
+  color: #AAAAAA;
+}
+
+.tecnologia h2{
+  color: #FFFFFF; 
+}
+
+.tecnologia h2 > span{
+    color: #FFBB00;
+}
+
+.tecnologia p{
+  color: #B2B2B2;
+}

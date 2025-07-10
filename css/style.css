@@ -6,6 +6,8 @@
 /* ======== I N T R O D U Ç Ã O ======== */
 
 @import "./home/introducao.css";
+@import "./home/tecnologia.css";
+
 
 /* ======== U T I L I D A D E S ======== */
 
@@ -15,4 +17,5 @@
 /* ======== B I C I C L E T A S ======== */
 
 @import "./bicicletas/bicicletas-lista.css"
+
 
