@@ -7,7 +7,8 @@
 
 @import "./home/introducao.css";
 @import "./home/tecnologia.css";
-
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
 
 /* ======== U T I L I D A D E S ======== */
 
@@ -17,5 +18,6 @@
 /* ======== B I C I C L E T A S ======== */
 
 @import "./bicicletas/bicicletas-lista.css"
+
 
 
