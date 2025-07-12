@@ -31,3 +31,7 @@
 .botao.secundario:hover {
   background: linear-gradient(rgba(224, 222, 222, 1) 26%, rgba(196, 190, 192, 1) 57%);
 }
+
+.ponto{
+  color: #ffbf00;
+}

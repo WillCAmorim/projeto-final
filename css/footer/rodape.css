@@ -50,13 +50,13 @@
 }
 
 .rodape-redes a {
-  position: relative; /* necessário pro posicionamento absoluto do ::after */
+  position: relative;
 }
 
 .rodape-redes a::after {
   content: '';
   position: absolute;
-  bottom: -6px; /* ou margin-top se preferir */
+  bottom: -6px;
   left: 0;
   height: 4px;
   width: 33px;
