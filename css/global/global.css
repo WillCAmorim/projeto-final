@@ -1,20 +1,21 @@
 /*====== C O N F I G U R A Ç Õ E S    G L O B A I S ======*/
 
-*{
-  padding: 0px;
-  margin: 0px;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  
+  box-sizing: border-box;
 }
 
 a {
-  list-style: none;
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
 }
 
-img{
+img {
   max-width: 100%;
   display: block;
   border-radius: 4px;
 }
+

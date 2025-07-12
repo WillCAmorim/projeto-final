@@ -1,0 +1,96 @@
+.rodape-bg{
+  background-color:#000000;
+}
+
+.rodape-conteudo{
+  color: #B2B2B2;
+  position: relative;
+}
+
+.rodape-conteudo h2{
+  color: white;
+  margin-bottom: 20px;
+}
+
+.rodape-contato{
+  position: relative;
+}
+
+.rodape-contato li{
+  padding-bottom: 20px;
+}
+
+.rodape-informacoes li{
+  padding-bottom: 20px;
+}
+
+.rodape-detalhe::after{
+  content: '';
+  width: 250px;
+  height: 1.5px;
+  background-color: #b2b2b223;
+  position: absolute;
+}
+
+.rodape-detalhe{
+  margin-bottom: 20px;
+}
+
+.rodape-informacoes a{ 
+  color: #B2B2B2;
+}
+
+.rodape-informacoes a:hover{
+  color: white;
+}
+
+.rodape-redes{
+  display: flex;
+  gap: 40px;
+}
+
+.rodape-redes a {
+  position: relative; /* necessário pro posicionamento absoluto do ::after */
+}
+
+.rodape-redes a::after {
+  content: '';
+  position: absolute;
+  bottom: -6px; /* ou margin-top se preferir */
+  left: 0;
+  height: 4px;
+  width: 33px;
+  background-color: #FFBB00;
+  opacity: 0;
+  transform: scaleX(0.4);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.rodape-redes a:hover::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.rodape-conteudo{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 60px;
+  margin: 0 auto;
+  padding: 40px;
+  gap: 40px;
+}
+
+.footer{
+  padding: 100px;
+  color: #B2B2B2;
+}
+
+@media (max-width: 800px){
+  .rodape-conteudo{
+  grid-template-columns: 1fr;
+}
+
+.footer{
+  padding: 70px;
+}
+}

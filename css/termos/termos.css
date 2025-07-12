@@ -1,0 +1,38 @@
+.termos-lista{
+  padding: 60px 40px ;
+}
+
+.termos-header{
+  background-color: #111111;
+  padding: 60px 180px;
+}
+
+.termos-up{
+  color: #B2B2B2;
+  margin-bottom: 5px;
+}
+
+.termos-titulo{
+  color: #FFFFFF;
+}
+
+#termos-subtitulo{
+  font-size: 1.5rem;
+  color: #111111e8;
+}
+
+.termos-lista li{
+  margin-top: 15px;
+  max-width: 75ch;
+  list-style: none;
+}
+
+.termos-lista {
+  margin-left: 150px;
+  list-style: none;
+}
+
+.termos{
+  color: #404040;
+  font-family: 'Roboto';
+}

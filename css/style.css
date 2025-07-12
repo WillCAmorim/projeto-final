@@ -17,7 +17,41 @@
 
 /* ======== B I C I C L E T A S ======== */
 
-@import "./bicicletas/bicicletas-lista.css"
+@import "./bicicletas/bicicletas-lista.css";
+
+/* ======== S E G U R O S ======== */
+
+@import "./seguros/seguros.css";
+
+/* ======== F O O T E R ======== */
+
+@import "./footer/rodape.css";
 
 
+@import "./termos/termos.css";
 
+@import "./bicicletas/bicicletas.css";
+
+#btnTopo {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: #ffbb00;
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 999;
+}
+
+#btnTopo.show {
+  opacity: 1;
+  pointer-events: auto;
+}

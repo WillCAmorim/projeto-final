@@ -1,91 +1,78 @@
 /*====== I N T R O D U C A O ======*/
 
-.introducao-bg{
-  background-color: #000000;
-  color: #ffffff;
-  box-shadow: inset 0 -120px #ffffff;
+.introducao-bg {
+  background-color: #000;
+  color: #fff;
+  box-shadow: inset 0 -120px #fff;
 }
 
-.introducao{
+.introducao {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0px 40px;
-  margin: 0px 10px;
-  box-sizing: border-box;
+  gap: 0 40px;
   max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
-.introducao-conteudo{
+.introducao-conteudo {
   align-self: end;
   padding-bottom: 200px;
 }
 
-.introducao img{
+.introducao img {
   object-fit: cover;
   border-radius: 4px;
 }
 
-.introducao h1{
+.introducao h1 {
   margin-bottom: 32px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 4rem;
 }
 
-.introducao h1 span{
-  color: #FFBB00;
-  font-family: 'roboto';
-  font-weight: 600;
-} 
-
-.introducao p{
+.introducao p {
   margin-bottom: 20px;
-  color: #B2B2B2;
-  
+  color: #b2b2b2;
 }
 
-
-
-@media (max-width: 1200px){
-
-  .introducao h1{ 
+@media (max-width: 1200px) {
+  .introducao h1 {
     font-size: 48px;
   }
 
-  .introducao p{
+  .introducao p {
     font-size: 18px;
   }
 }
 
-@media (max-width: 800px){
-
-  .introducao-bg{
-    background-color: #111111;
+@media (max-width: 800px) {
+  .introducao-bg {
+    background-color: #111;
     padding-top: 40px;
-    box-shadow: inset 0 -60px #ffffff;
+    box-shadow: inset 0 -60px #fff;
   }
 
-  .introducao{
+  .introducao {
     grid-template-columns: 1fr;
     gap: 32px;
   }
 
-  .introducao-conteudo{
-    padding-bottom: 0px;
+  .introducao-conteudo {
+    padding-bottom: 0;
   }
 
-  .introducao h1{ 
+  .introducao h1 {
     font-size: 32px;
     margin-bottom: 16px;
   }
 
-  .introducao img{
-    height: 300px;
+  .introducao img {
     width: 100%;
+    height: 300px;
   }
 }
+
 

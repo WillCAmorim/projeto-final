@@ -1,55 +1,57 @@
-.bicicleta-lista ul{
+.bicicleta-lista ul {
   display: flex;
   gap: 40px;
-  padding: 0 20px 20px 20px;
-  text-decoration: none;
-  list-style: none;
+  padding: 0 20px 20px;
   max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: auto;
+  margin: 0 auto;
+  overflow-x: auto;
+  list-style: none; /* redundante se já tá no reset, mas não faz mal */
+  text-decoration: none; /* não afeta ul, pode remover */
 }
 
-.bicicleta-lista li{
+.bicicleta-lista li {
   min-width: 230px;
   flex: 1;
 }
 
-.bicicleta-lista a{
+.bicicleta-lista a {
   color: black;
+  text-decoration: none; /* garantir que links não sublinhem */
 }
 
-.bicicleta-lista h2 span{
-  color: #FFBB00;
-  font-family: 'roboto';
+.bicicleta-lista h2 {
+  margin: 40px 50px;
+}
+
+.bicicleta-lista h2 span {
+  color: #ffbb00;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
 }
 
-.bicicleta-lista h2{
-  margin: 40px 50px;
-
-}
-
-.bicicleta-lista h3{
+.bicicleta-lista h3 {
   padding: 10px 0;
+  position: relative; /* para o ::before posicionar relativamente */
 }
 
-.bicicleta-lista h3::before{
+.bicicleta-lista h3::before {
   content: '';
   display: block;
   height: 10px;
   width: 10px;
   border-radius: 50%;
-  background-color: #FFBB00;
+  background-color: #ffbb00;
+  position: absolute;
   left: -15px;
-  top: 17px;
-  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.bicicleta-lista span{
-  color: #3a2605c0;
+.bicicleta-lista span {
+  color: rgba(58, 38, 5, 0.75); /* mais legível que #3a2605c0 */
   font-weight: bold;
 }
+
 
 
 

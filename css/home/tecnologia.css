@@ -1,110 +1,106 @@
-.tecnologia-bg{
-  background-color: black;
-  box-shadow: inset 0 80px rgb(255, 255, 255), inset 0 -80px rgb(255, 255, 255);
+.tecnologia-bg {
+  background-color: #000;
+  box-shadow: inset 0 80px #fff, inset 0 -80px #fff;
 }
 
-.tecnologia-conteudo{
-  padding-top: 160px;
-  padding-bottom: 160px;
+.tecnologia-conteudo {
+  padding: 160px 0;
 }
 
-.tecnologia{
+.tecnologia {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
 }
 
-.tecnologia-conteudo span{
-  color: #AAAAAA;
+.tecnologia-conteudo span {
+  color: #aaa;
   display: block;
   margin-bottom: 20px;
 }
 
-.tecnologia-conteudo h2{
+.tecnologia-conteudo h2 {
   margin-bottom: 32px;
-  color: #FFFFFF; 
+  color: #fff;
 }
 
-.tecnologia-conteudo h2 > span{
-    color: #FFBB00;
-}
-
-.tecnologia-conteudo > p{
-  color: #B2B2B2;
+.tecnologia-conteudo > p,
+.tecnologia-conteudo p {
+  color: #b2b2b2;
   margin-bottom: 20px;
 }
 
-.tecnologia-conteudo p{
-  color: #B2B2B2;
-}
-
-.link{
-  color: #E99915;
+.link {
+  color: #e99915;
   margin-bottom: 20px;
   display: inline-block;
   font-weight: bold;
   text-transform: uppercase;
+  position: relative;
 }
 
-.link::after{
-  display: block;
+.link::after {
   content: "";
+  display: block;
   width: 100%;
   height: 4px;
   background-color: currentColor;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
 }
 
-.link:hover{
-  color: #FFFFFF;
+.link:hover {
+  color: #fff;
 }
 
-.tecnologia-vantagens{
+.tecnologia-vantagens {
   display: flex;
   gap: 40px;
 }
 
-.tecnologia-vantagens h3{
+.tecnologia-vantagens h3 {
   margin-bottom: 8px;
   width: max-content;
-  color: #FFFFFF;
+  color: #fff;
 }
 
-.tecnologia-vantagens img{
+.tecnologia-vantagens img {
   width: 24px;
   margin-bottom: 8px;
 }
 
-.tecnologia-imagem img{
-  height: 100%;
+.tecnologia-imagem img {
   width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: left;
 }
 
-@media (max-width:800px){
-  .tecnologia{
+@media (max-width: 800px) {
+  .tecnologia {
     grid-template-columns: 1fr;
   }
 
-  .tecnologia-conteudo{
-    padding-top: 60px;
-    padding-bottom: 60px;
+  .tecnologia-conteudo {
+    padding: 60px 0;
   }
 
-  .tecnologia-bg{
-    box-shadow: initial;
+  .tecnologia-bg {
+    box-shadow: none;
   }
 
-  .tecnologia-imagem{
+  .tecnologia-imagem {
     display: none;
   }
 
-  .tecnologia a{
+  .tecnologia a {
     margin-bottom: 60px;
   }
+}
 
-  @media (max-width: 600px){
-    .tecnologia-vantagens{
-      flex-direction: column;
-    }
+@media (max-width: 600px) {
+  .tecnologia-vantagens {
+    flex-direction: column;
   }
+}
